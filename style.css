@@ -38,7 +38,7 @@ h1, h2, h3 {
 
 
 header {
-  background: #ffffff;
+  /* background: #ffffff; */
   border-bottom: 5px solid grey;
 }
 
@@ -89,9 +89,9 @@ header {
 
 header h1 {
   text-align: center;
-  color: #228b22;
+  color: #f5f9f5;
   font-size: 64px;
-  margin: 0px;
+  margin-top: 90px;
 }
 
 .margin-100 {
@@ -163,11 +163,21 @@ a {
   font-weight: bold;
 }
 
+a.button {
+  padding: 10px;
+  background: white;
+
+}
+
 a:link,
 a:focus,
 a:active {
   text-decoration: none;
   color: #ff0000;
+}
+
+a.button:hover {
+  background: grey;
 }
 
 a:hover {
@@ -182,6 +192,6 @@ a:visited {
 
 footer {
   text-align: center;
-  background: #ffffff;
+  /* background: #ffffff; */
   color: #ffffff;
 }
