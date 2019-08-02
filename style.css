@@ -173,7 +173,7 @@ a:link,
 a:focus,
 a:active {
   text-decoration: none;
-  color: #ff0000;
+  color: #0000ff;
 }
 
 a.button:hover {
